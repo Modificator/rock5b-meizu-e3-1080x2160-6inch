@@ -36,7 +36,7 @@
 extern unsigned int ctp_fw_version_1;
 extern unsigned int ctp_fw_version_2;
 static u8 sec_ts_fw_data[] = {
-	#include "s6d6ft0_v1.10_20170918.i"
+	#include "s6d6ft0_v1.10_20170918.h"
 };
 
 u8 *sec_get_fwdata(void) { return sec_ts_fw_data; }
